@@ -4,8 +4,9 @@ def find_outlier(integers):
             if integers[i] % 2 != 0:
                 return integers[i]
     elif integers[0] % 2 != 0 and integers[1] % 2 != 0:
-        if integers[i] % 2 == 0:
-            return integers[i]
+        for i in range(2, len(integers)):
+            if integers[i] % 2 == 0:
+                return integers[i]
     elif integers[0] % 2 == 0 and integers[1] % 2 != 0 and integers[2] % 2 == 0:
         return integers[1]
     elif integers[0] % 2 != 0 and integers[1] % 2 == 0 and integers[2] % 2 != 0:
