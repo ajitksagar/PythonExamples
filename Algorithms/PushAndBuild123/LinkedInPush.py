@@ -25,7 +25,3 @@ def build_one_two_three():
     two.next = three
     three.next = None
     return head
-
-#print(push(None, 1).data)
-#print(push(None, 1).next)
-#print(push(Node(1), 2).next.data)
