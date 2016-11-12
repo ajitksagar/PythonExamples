@@ -1,6 +1,6 @@
 from unittest import TestCase
 from LenAndCount import length,count,Node
-from Algorithms.PushAndBuild123.LinkedInPush import build_one_two_three
+from Datastructres.PushAndBuild123.LinkedInPush import build_one_two_three
 
 
 class TestLength(TestCase):
